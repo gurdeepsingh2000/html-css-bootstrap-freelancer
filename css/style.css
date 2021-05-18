@@ -80,3 +80,13 @@ hr{
     color: grey
 }
 
+.bg-color-blue{
+    background-color: #3A546D;
+}
+
+
+.bg-color-copyright{
+background-color: #2C3E50;
+color: white;
+text-align: center;
+}
