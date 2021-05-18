@@ -6,4 +6,57 @@ nav{
 .central-block{
     background-color: #1ABC9C;
     text-align: center;
+    color: white;
+}
+
+.portfolio{
+    background-color: chartreuse;
+    text-align: center;
+    color: black;
+}
+
+.block{
+    height: 180px;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.block img{
+    border-radius: 50%;
+}
+
+.red{
+    background-color:red ;
+}
+
+.teal{
+    background-color: teal;
+}
+
+.black{
+    background-color: black;
+}
+
+.aqua{
+    background-color: aqua;
+
+
+}
+
+.blue{
+    background-color: blue ;
+}
+
+.burlywood{
+    background-color: burlywood ;
+}
+
+
+.about{
+    background-color: #1ABC9C ;
+    color: white;
+}
+
+.about h2{
+    text-align: center;
 }
