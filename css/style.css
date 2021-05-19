@@ -15,10 +15,18 @@ nav{
     color: black;
 }
 
+.center-text{
+    margin-bottom: 24px;
+    text-align: center;
+}
+
+.center-text h2{
+    font-size: 50px;
+}
+
 .block{
-    height: 180px;
-    padding: 15px;
-    border-radius: 15px;
+    height: 260px;
+    margin-bottom: 24px;
 }
 
 .block img{
@@ -40,7 +48,6 @@ nav{
 .aqua{
     background-color: aqua;
 
-
 }
 
 .blue{
@@ -51,18 +58,14 @@ nav{
     background-color: burlywood ;
 }
 
-
-.about{
-    background-color: #1ABC9C ;
-    color: white;
+.section-container{
+    background-color: aqua;
+    padding: 50px 0px;
 }
 
-.about h2{
-    text-align: center;
-}
-
-.download-button{
-    text-align: center;
+.about-content{
+    height: 400px;
+    background-color: teal;
 }
 
 .contact-me h2{
@@ -70,8 +73,13 @@ nav{
 }
 
 .form-control{
-    border: 0;
     padding: 0;
+    border: 0;
+    font-size: 20px;
+}
+
+#name-box{
+    color: black;
 }
 
 hr{
@@ -82,6 +90,7 @@ hr{
 
 .bg-color-blue{
     background-color: #3A546D;
+    color: white;
 }
 
 
@@ -90,3 +99,6 @@ background-color: #2C3E50;
 color: white;
 text-align: center;
 }
+
+
+
