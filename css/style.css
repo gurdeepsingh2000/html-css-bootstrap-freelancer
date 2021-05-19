@@ -7,17 +7,78 @@ nav{
     background-color: #1ABC9C;
     text-align: center;
     color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.central-block h1{
+    font-size: 50px
+}
+
+.central-block img{
+    width: 200px;
+}
+
+.line::before, 
+.line::after{
+    width: 90px;
+    height: 5px;
+    border-top: 5px solid #fff;
+    border-radius: 12px;
+    display: inline-block;
+    content: '';
+    margin-left: 24px;
+    margin-right: 24px;
+}
+
+.cx{
+    text-align: center;
+    color: white;
+}
+
+.section-container h2{
+    font-size: 50px;
+}
+
+
+
+.line-black::before, 
+.line-black::after{
+    width: 90px;
+    height: 5px;
+    border-top: 5px solid black;
+    border-radius: 12px;
+    display: inline-block;
+    content: '';
+    margin-left: 24px;
+    margin-right: 24px;
+}
+
+
+.line{
+        margin-bottom: 24px;
+
+}
+
+.line-list{
+    font-size: 28px;
+}
+
+.img-boot{
+    width: 360px;
+    height: 360px;
+    text-align: center;
 }
 
 .portfolio{
-    background-color: chartreuse;
     text-align: center;
-    color: black;
 }
+
 
 .center-text{
     margin-bottom: 24px;
     text-align: center;
+    padding-top: 30px;
 }
 
 .center-text h2{
@@ -25,15 +86,15 @@ nav{
 }
 
 .block{
-    height: 260px;
+    height: 270px;
     margin-bottom: 24px;
-    border-radius: 15px;
+    border-radius: 18px ;
 }
 
 .block img{
     width: 100%;
     height: 100%;
-    border-radius: 15px;
+    border-radius: 18px ;
 }
 
 .red{
@@ -61,38 +122,25 @@ nav{
     background-color: burlywood ;
 }
 
-.section-container{
-    background-color: aqua;
-    padding: 50px 0px;
-}
 
-.about-content{
-    height: 380px;
-    background-color: teal;
-    color: white;
-    font-size: 25px;
-    padding-top: 20px ;
-}
 
-.contact-me h2{
+.cx-black{
+    color: black;
     text-align: center;
 }
 
-.form-control{
-    padding: 0;
-    border: 0;
+.section-container{
+    background-color: #1ABC9C;
+    padding: 50px 0px;
+}
+
+.about-text p{
+    color: white;
     font-size: 20px;
 }
 
-#name-box{
-    color: black;
-}
 
-hr{
-    width: 100%;
-    height: 2px;
-    color: grey
-}
+
 
 .bg-color-blue{
     background-color: #3A546D;
@@ -104,6 +152,27 @@ hr{
 background-color: #2C3E50;
 color: white;
 text-align: center;
+}
+
+
+.contact-container{
+    padding-top: 48px;
+    padding-bottom: 48px;
+}
+
+.contact-form input {
+    border: 0;
+    border-bottom: 1px #ccc solid;
+    width: 100%;
+    padding-bottom: 12px;
+    margin-bottom: 12px;
+}
+
+.contact-form textarea {
+    border: 0;
+    border-bottom: 1px #ccc solid;
+    width: 100%;
+    margin-bottom: 12px;
 }
 
 
