@@ -145,6 +145,7 @@ nav{
 .bg-color-blue{
     background-color: #3A546D;
     color: white;
+    text-align: center;
 }
 
 
@@ -174,6 +175,17 @@ text-align: center;
     width: 100%;
     margin-bottom: 12px;
 }
+
+.centered{
+    padding-top: 45px;
+    padding-bottom: 45px;
+}
+
+.copyright{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
 
 
 
